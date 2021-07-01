@@ -67,5 +67,9 @@ public class Restaurant {
         return name;
     }
 
+    public int getOrderTotal(Item[] itemList) {
+        return 0;
+    }
+
 
 }
