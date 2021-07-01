@@ -73,7 +73,6 @@ class RestaurantTest {
         List<String> itemList = new ArrayList<String>();
         itemList.add("Sweet corn soup");
         itemList.add("Vegetable lasagne");
-
         assertTrue(restaurant.getOrderTotal(itemList) > 0);
 
     }
