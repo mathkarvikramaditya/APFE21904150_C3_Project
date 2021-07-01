@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7f1e3e06-f74f-444e-98f5-30194ce1c481" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Restaurant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RestaurantTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestaurantTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/RestaurantTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RestaurantTest.class" afterDir="false" />
@@ -33,7 +32,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.RestaurantTest">
+  <component name="RunManager" selected="JUnit.RestaurantTest.adding_items_should_give_non_zero_order_total">
     <configuration name="RestaurantServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Restaurant_project -Student version" />
       <option name="PACKAGE_NAME" value="" />
@@ -84,8 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RestaurantTest" />
         <item itemvalue="JUnit.RestaurantTest.adding_items_should_give_non_zero_order_total" />
+        <item itemvalue="JUnit.RestaurantTest" />
         <item itemvalue="JUnit.RestaurantServiceTest" />
         <item itemvalue="JUnit.RestaurantServiceTest.searching_for_existing_restaurant_should_return_expected_restaurant_object" />
         <item itemvalue="JUnit.RestaurantServiceTest.searching_for_non_existing_restaurant_should_throw_exception" />
@@ -116,6 +115,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Restaurant_project__Student_version$RestaurantServiceTest.ic" NAME="RestaurantServiceTest Coverage Results" MODIFIED="1624986243410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Restaurant_project__Student_version$RestaurantTest.ic" NAME="RestaurantTest Coverage Results" MODIFIED="1625156405196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Restaurant_project__Student_version$RestaurantTest.ic" NAME="RestaurantTest Coverage Results" MODIFIED="1625157696877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

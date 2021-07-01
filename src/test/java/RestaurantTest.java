@@ -70,9 +70,9 @@ class RestaurantTest {
     //<<<<<<<<<<<<<<<<<<<<<<TDD for Order total calculation>>>>>>>>>
     @Test
     public void adding_items_should_give_non_zero_order_total(){
-        List<Item> itemList = new ArrayList<Item>();
-        itemList.add( new Item("Sweet corn soup", 119));
-        itemList.add( new Item("Vegetable lasagne", 269));
+        List<String> itemList = new ArrayList<String>();
+        itemList.add("Sweet corn soup");
+        itemList.add("Vegetable lasagne");
 
         assertTrue(restaurant.getOrderTotal(itemList) > 0);
 
