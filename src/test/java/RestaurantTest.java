@@ -5,6 +5,9 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 import java.time.LocalTime;
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(MockitoExtension.class)
@@ -67,9 +70,9 @@ class RestaurantTest {
     //<<<<<<<<<<<<<<<<<<<<<<TDD for Order total calculation>>>>>>>>>
     @Test
     public void adding_items_should_give_non_zero_order_total(){
-        Item[] itemList = new Item[2];
-        itemList[0] = new Item("Sweet corn soup", 119);
-        itemList[1] = new Item("Vegetable lasagne", 269);
+        List<Item> itemList = new ArrayList<Item>();
+        itemList.add( new Item("Sweet corn soup", 119));
+        itemList.add( new Item("Vegetable lasagne", 269));
 
         assertTrue(restaurant.getOrderTotal(itemList) > 0);
 
